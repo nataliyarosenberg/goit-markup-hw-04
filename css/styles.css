@@ -398,15 +398,19 @@ span .accent {
   color: #434455;
 }
 
-/* .soc-links {
-  display: block;
-} */
-
+.soc-links {
+}
 .soc-links-list {
   display: flex;
   max-width: 100%;
   justify-content: space-between;
   margin: 0 16px;
+}
+
+.soc-link-item {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .soc-link {
