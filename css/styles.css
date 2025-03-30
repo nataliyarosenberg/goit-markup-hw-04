@@ -566,9 +566,15 @@ span .accent {
 
 .soc-links-list {
   display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  gap: 16px;
+}
+
+.soc-link {
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
 }
 
 .footer-media-links {
