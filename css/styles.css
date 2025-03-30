@@ -564,7 +564,7 @@ span .accent {
   gap: 16px;
 } */
 
-.soc-link {
+.soc-links-list {
   display: flex;
   align-items: center;
   justify-content: center;
