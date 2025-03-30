@@ -197,7 +197,7 @@ span .accent {
 
 .section-hero {
   background-color: #2e2f42;
-  max-width: 1448px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 188px 0;
   background-image: linear-gradient(
@@ -205,8 +205,8 @@ span .accent {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office\ 1-min.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: center, center;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -398,9 +398,9 @@ span .accent {
   color: #434455;
 }
 
-.soc-links {
+/* .soc-links {
   display: block;
-}
+} */
 
 .soc-links-list {
   display: flex;
@@ -557,7 +557,14 @@ span .accent {
   max-width: 264px;
 }
 
-.soc-links-list {
+/* .soc-links-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+} */
+
+.soc-link {
   display: flex;
   align-items: center;
   justify-content: center;
