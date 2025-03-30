@@ -187,7 +187,18 @@ span .accent {
 
 .section-hero {
   background-color: #2e2f42;
+  width: 1448px;
+  margin: 0 auto;
   padding: 188px 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1-min.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover;
 }
 
 .hidden {
@@ -273,6 +284,28 @@ span .accent {
   margin-right: 0;
 }
 
+.icon-box {
+  /* display: block; */
+  position: relative;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+}
+
+.icon {
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
 .about-us-title {
   font-weight: 500;
   font-size: 20px;
@@ -325,10 +358,11 @@ span .accent {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  padding-bottom: 32px;
 }
 
 .our-team-image {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -353,6 +387,38 @@ span .accent {
   color: #434455;
 }
 
+.soc-links-list {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  margin: 0 16px;
+}
+
+.soc-link {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-link:hover,
+.soc-link:focus {
+  background-color: #404bbf;
+}
+
+.soc-link-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  fill: #fff;
+}
 /* --------------OUR TEAM----------- */
 
 /* ----------PORTFOLIO--------------- */
@@ -380,6 +446,10 @@ span .accent {
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
+}
+
+.div-image {
+  position: absolute;
 }
 .portfolio-image {
   max-width: 360px;
@@ -420,7 +490,12 @@ span .accent {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
+.footer .container {
+  display: flex;
+}
+.footer-container {
+  margin-right: 120px;
+}
 .logo {
   color: #4d5ae5;
 }
@@ -441,6 +516,28 @@ span .accent {
   background-color: #2e2f42;
   color: #f4f4fd;
   max-width: 264px;
+}
+.footer-media-links {
+  width: 208px;
+  margin: 0;
+  padding: 0;
+}
+.footer-media-links .soc-links-list {
+  margin: 0;
+  padding: 0;
+}
+.footer-media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer .soc-link:hover,
+.footer .soc-link:focus {
+  background-color: #31d0aa;
 }
 
 /* --------------FOOTER------------------ */
