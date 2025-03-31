@@ -375,10 +375,15 @@ span .accent {
 .our-team-image {
   display: block;
   width: 100%;
+  margin-bottom: 32px;
 }
 
 .team-info {
-  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  gap: 8px;
 }
 .our-team-subtitle {
   font-weight: 500;
@@ -387,7 +392,6 @@ span .accent {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -398,11 +402,10 @@ span .accent {
   color: #434455;
 }
 
-.soc-links {
-}
 .soc-links-list {
   display: flex;
   /* max-width: 100%; */
+
   justify-content: space-between;
   margin: 0 16px;
 }
