@@ -398,17 +398,18 @@ span .accent {
   color: #434455;
 }
 
-/* .soc-links {
-} */
+.soc-links {
+}
 .soc-links-list {
   display: flex;
-  max-width: 100%;
+  /* max-width: 100%; */
   justify-content: space-between;
   margin: 0 16px;
 }
 
 .soc-link-item {
   display: flex;
+  /* justify-content: space-between; */
   justify-content: center;
   gap: 24px;
 }
