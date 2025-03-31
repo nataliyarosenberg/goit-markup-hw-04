@@ -562,7 +562,7 @@ span .accent {
   gap: 16px;
 } */
 
-.soc-links-list {
+.footer .soc-links-list {
   display: flex;
   /* align-items: center;
   justify-content: center; */
