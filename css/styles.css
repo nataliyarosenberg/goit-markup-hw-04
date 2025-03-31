@@ -369,20 +369,18 @@ span .accent {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  padding-bottom: 32px;
 }
 
 .our-team-image {
   display: block;
   width: 100%;
-  margin-bottom: 32px;
 }
 
 .team-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0;
+  padding: 32px 0;
   gap: 8px;
 }
 .our-team-subtitle {
@@ -406,14 +404,8 @@ span .accent {
   display: flex;
   /* max-width: 100%; */
 
-  justify-content: space-between;
-  margin: 0 16px;
-}
-
-.soc-link-item {
-  display: flex;
-  /* justify-content: space-between; */
   justify-content: center;
+  margin: 0 16px;
   gap: 24px;
 }
 
